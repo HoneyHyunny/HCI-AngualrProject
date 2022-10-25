@@ -1,3 +1,15 @@
-.container{
-    height: 100vh;
+#carouselimg{
+    height:85vh;
 }
+
+#vertical {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .child.featured {
+    grid-row-end: span 2;
+  }
+  
+
