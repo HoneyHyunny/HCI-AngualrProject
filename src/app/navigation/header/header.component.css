@@ -1,6 +1,8 @@
 
 
-
+#navbar{
+    background-color: #1e2c37;
+}
 
 img{
     width: 5rem;
@@ -9,4 +11,14 @@ img{
 
 #first-header{
     justify-content: center;
+}
+
+.navitem{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Century Gothic;
+}
+
+.navbar a{
+    color: #fff;
 }
