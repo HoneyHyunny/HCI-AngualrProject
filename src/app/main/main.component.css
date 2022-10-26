@@ -12,4 +12,29 @@
     grid-row-end: span 2;
   }
   
+  #slideText{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    padding-bottom: 25%;
+    font-family: Didot;
+    font-style: italic;
+  }
+
+  #slideDescription{
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: Century Gothic;
+  }
+.card-title{
+  font-family: Didot;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.card-text{
+  font-family: Century Gothic;
+  font-size: 1rem;
+}
 
