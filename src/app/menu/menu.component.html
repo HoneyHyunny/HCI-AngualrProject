@@ -16,7 +16,7 @@
       </ul> -->
 
 
-      <div id="carouselMenu" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselMenu"  *ngIf="router!= '/detail'" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img id="carouselMenuimage" src="../../assets/menuimage.jpg" class="d-block w-100" alt="...">
@@ -33,7 +33,7 @@
 
    
     <div class="container m-3">
-      <app-pizza></app-pizza>
+      <!-- <app-pizza></app-pizza> -->
       <router-outlet></router-outlet>
     </div>
     

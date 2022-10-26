@@ -7,6 +7,7 @@ import { PizzaComponent } from "./pizza/pizza.component";
 import { RouterModule } from "@angular/router";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MenuRoutingModule } from "./menu-routing.module";
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
     declarations:[
@@ -14,7 +15,8 @@ import { MenuRoutingModule } from "./menu-routing.module";
         SpecialComponent,
         SidesComponent,
         PizzaComponent,
-        SpecialComponent],
+        SpecialComponent,
+        DetailComponent],
     imports : [
        CommonModule,
        RouterModule, 
