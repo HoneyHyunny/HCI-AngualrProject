@@ -36,7 +36,7 @@
 }
 
 .card-text{
-  font-family: Century Gothic;
+  font-family: Century Gothic !important;
   font-size: 1rem;
   color: white;
 }
@@ -60,11 +60,36 @@
 .accordion{
   font-family: Century Gothic;
   font-size: 1rem;
+  background-color: black !important;
+}
+
+.accordion-item{
+  background-color:black !important;
+  border:1px solid white!important;
+}
+
+.accordion-button{
+  background-color:black !important;
+  border:1px solid white!important;
+  color:  white !important;
+}
+
+.accordion-item table {
+  background-color: black !important;
+  color: white !important;
 }
 
 .accordion img {
   width: 10rem;
   height: 10rem;
+}
+
+h1, h3{
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Didot;
+  font-style: italic; 
 }
 
 
