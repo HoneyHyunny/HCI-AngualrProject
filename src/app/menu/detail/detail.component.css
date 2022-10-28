@@ -1,0 +1,19 @@
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Didot;
+    font-style: italic; 
+}
+
+h2,h3{
+    font-family: Didot;
+    font-style: italic;
+    color: white;
+  }
+
+  h5, .table{
+    font-family: Century Gothic;
+    color: white;
+  }

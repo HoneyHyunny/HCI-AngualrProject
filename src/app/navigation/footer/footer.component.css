@@ -1,4 +1,9 @@
 #logoimg{
     width: 5rem;
     height: 5rem;
+    padding-top: 0.5rem;
+}
+
+footer{
+    background-color: black !important;
 }
