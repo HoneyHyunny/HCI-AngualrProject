@@ -27,6 +27,7 @@
     color: #fff;
     font-family: Century Gothic;
   }
+
 .card-title{
   font-family: Didot;
   font-style: italic;
@@ -37,4 +38,29 @@
   font-family: Century Gothic;
   font-size: 1rem;
 }
+
+.child{
+  font-family: Didot;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.accordion-header{
+  font-family: Didot;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.accordion{
+  font-family: Century Gothic;
+  font-size: 1rem;
+}
+
+.accordion img {
+  width: 10rem;
+  height: 10rem;
+}
+
+
+
 
