@@ -5,3 +5,14 @@
 #menucaption{
     padding-bottom: 8rem;
 }
+
+.nav a{
+    color: #fff;
+    font-family: Century Gothic;
+}
+
+.nav a:hover {
+    border: 1px solid #3E7DC0;
+    border-radius: 15px 50px;
+}
+
