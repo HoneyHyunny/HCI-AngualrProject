@@ -9,6 +9,7 @@ import { FooterComponent } from './navigation/footer/footer.component';
 
 import { MenusModule } from './menu/menu.module';
 import { MainComponent } from './main/main.component';
+import { MapComponent } from './location/map/map.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { MainComponent } from './main/main.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-
+    MapComponent,
   ],
   imports: [
     BrowserModule,

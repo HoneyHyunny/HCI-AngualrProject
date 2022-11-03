@@ -1,0 +1,19 @@
+.map-container {
+    position: static;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  .map-frame {
+    border-radius: 2px solid black;
+    height: 800px;
+    width: 800px;
+  }
+  
+  #map {
+    height: 100%;
+    width: 100%;
+    border-radius: 2px solid black;
+  }
