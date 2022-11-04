@@ -1,11 +1,12 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { DetailComponent } from "./detail/detail.component";
+import { DetailPeperoniComponent } from "./pizza/detail/pepperoni/detailPepperoni.component";
 import { FamilyDealComponent } from "./family-deal/family-deal.component";
 import { MenuComponent } from "./menu.component";
 import { PizzaComponent } from "./pizza/pizza.component";
 import { SidesComponent } from "./sides/sides.component";
 import { SpecialComponent } from "./special/special.component";
+import { DetailPopularComponent } from "./pizza/detail/mostPopular/detailPopular.component";
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
         {path : 'special', component : SpecialComponent},
         {path : 'sides', component : SidesComponent},
         {path : 'family-deal', component : FamilyDealComponent},
-        {path : 'detail', component : DetailComponent}
+        {path : 'detail-pepperoni', component : DetailPeperoniComponent},
+        {path : 'detail-popular', component : DetailPopularComponent},
       ]
     }
 ]

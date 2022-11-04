@@ -7,7 +7,8 @@ import { PizzaComponent } from "./pizza/pizza.component";
 import { RouterModule } from "@angular/router";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MenuRoutingModule } from "./menu-routing.module";
-import { DetailComponent } from './detail/detail.component';
+import { DetailPeperoniComponent } from './pizza/detail/pepperoni/detailPepperoni.component';
+import { DetailPopularComponent } from './pizza/detail/mostPopular/detailPopular.component';
 
 @NgModule({
     declarations:[
@@ -16,7 +17,9 @@ import { DetailComponent } from './detail/detail.component';
         SidesComponent,
         PizzaComponent,
         SpecialComponent,
-        DetailComponent],
+        DetailPeperoniComponent,
+        DetailPopularComponent
+    ],
     imports : [
        CommonModule,
        RouterModule, 
