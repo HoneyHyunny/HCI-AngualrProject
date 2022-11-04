@@ -9,6 +9,8 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MenuRoutingModule } from "./menu-routing.module";
 import { DetailPeperoniComponent } from './pizza/detail/pepperoni/detailPepperoni.component';
 import { DetailPopularComponent } from './pizza/detail/mostPopular/detailPopular.component';
+import { DetailRecommendedComponent } from './pizza/detail/recommended/detailRecommended.component';
+import { DetailInnovationComponent } from "./pizza/detail/innovation/detailInnovation.component";
 
 @NgModule({
     declarations:[
@@ -18,7 +20,9 @@ import { DetailPopularComponent } from './pizza/detail/mostPopular/detailPopular
         PizzaComponent,
         SpecialComponent,
         DetailPeperoniComponent,
-        DetailPopularComponent
+        DetailPopularComponent,
+        DetailRecommendedComponent,
+        DetailInnovationComponent,
     ],
     imports : [
        CommonModule,

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-detail',
+  selector: 'detail-popular',
   templateUrl: './detailPopular.component.html',
   styleUrls: ['./detailPopular.component.css']
 })

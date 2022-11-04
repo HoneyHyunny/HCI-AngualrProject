@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-detail',
+  selector: 'detail-pepperoni',
   templateUrl: './detailPepperoni.component.html',
   styleUrls: ['./detailPepperoni.component.css']
 })
