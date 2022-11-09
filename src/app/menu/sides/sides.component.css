@@ -1,0 +1,36 @@
+img{
+    width: 20rem;
+    height: 20rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Didot;
+    font-style: italic; 
+}
+
+  
+  .card-title{
+    font-family: Didot;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .card-text{
+    font-family: Century Gothic !important;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .card {
+    background-color: black;
+    border-radius: 25px;
+  }
+
+  .card img {
+    border-radius: 25px;
+  }
