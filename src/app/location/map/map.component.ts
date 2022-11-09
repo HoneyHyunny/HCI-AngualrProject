@@ -26,7 +26,7 @@ export class MapComponent implements OnInit  {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    const marker = L.marker([42.878, -112.44], this.icon).addTo(map);
+    const marker = L.marker([42.87802315197319, -112.44105969624094], this.icon).addTo(map);
     marker.bindPopup("<b>Big foot Pizza!</b><br>Come and try it out.").openPopup();
   }
 }
