@@ -13,8 +13,9 @@ export class MapComponent implements OnInit  {
     icon: L.icon({
       iconSize: [ 25, 41 ],
       iconAnchor: [ 13, 0 ],
-      iconUrl: './node_modules/leaflet/dist/images/marker-icon.png',
-      shadowUrl: './node_modules/leaflet/dist/images/marker-shadow.png'
+      iconUrl: "../../../assets/marker-icon.png",
+      // iconUrl: './node_modules/leaflet/dist/images/marker-icon.png',
+      shadowUrl: "../../../assets/marker-shadow.png"
     })
   };
 
