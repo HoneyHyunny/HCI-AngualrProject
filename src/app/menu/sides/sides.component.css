@@ -1,6 +1,6 @@
 img{
-    width: 20rem;
-    height: 20rem;
+    width: 24rem;
+    height: 16rem;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -10,6 +10,10 @@ h1,h2,h3,h4,h5,h6{
     text-shadow: 2px 2px 4px #000000;
     font-family: Didot;
     font-style: italic; 
+}
+
+h4 {
+  margin-bottom: 3%;
 }
 
   
@@ -29,8 +33,24 @@ h1,h2,h3,h4,h5,h6{
   .card {
     background-color: black;
     border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+   
   }
 
   .card img {
     border-radius: 25px;
+    margin-bottom: 5%;
   }
+
+ .container{
+  max-width: 100% !important;
+ }
+
+ /* text under id price alligned at the bottom */
+  #price{
+  margin-top: auto;
+ }
+
+
+
