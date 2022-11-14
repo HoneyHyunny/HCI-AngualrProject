@@ -16,6 +16,13 @@ h3{
   font-style: italic; 
 }
   
+h5{
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Didot;
+  font-style: italic; 
+}
   .card-title{
     font-family: Didot;
     font-style: italic;
