@@ -6,13 +6,16 @@
     text-shadow: 2px 2px 4px #000000;
     font-family: Didot;
     font-style: italic; 
+    margin-bottom: 3%;
 }
 
-h2,h3{
-    font-family: Didot;
-    font-style: italic;
-    color: white;
-  }
+h5{
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Didot;
+  font-style: italic; 
+}
 
 
   .map-frame {
